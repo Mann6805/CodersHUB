@@ -1,16 +1,32 @@
 # CodersHUB
 
-A new Flutter project.
+CodersHUB is a Flutter-based chatroom application designed for developers to discuss topics, share knowledge, and collaborate on projects. Built with Firebase for authentication and real-time messaging, CodersHUB provides a seamless and interactive platform for developers of different domains.
 
-## Getting Started
+### Features
+- User Authentication: Sign in and sign up using Firebase Authentication.
+- Profile Management: Users can edit their profile name and role.
+- Chatrooms for Various Domains: Join discussions related to different branches of development.
+- Real-Time Messaging: Send and receive messages instantly.
+- User-Friendly UI: Clean and intuitive interface for seamless navigation.
 
-This project is a starting point for a Flutter application.
+### Tech Stack
+- Frontend: Flutter (Dart)
+- Backend: Firebase (Authentication, Firestore, Storage)
 
-A few resources to get you started if this is your first Flutter project:
+# Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
+- Install Flutter
+- Set up Firebase project and enable authentication & Firestore
+- Configure Firebase in your Flutter project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Steps
+
+1. Clone the repository:
+  ```git clone https://github.com/Mann6805/CodersHUB.git```
+2. Navigate to the project directory:
+  ```cd CodersHUB```
+3. Install dependencies:
+  ```flutter pub get```
+4. Run the app:
+  ```flutter run```
